@@ -63,6 +63,10 @@ class UserController extends Controller
         return view("SingleUserData", ["data"=>$user]);
     }
 
+    public function addNew(){
+        return view("AllUsers");
+    }
+
     public function addUser(Request $request){
         
         $user = DB::table('users')
