@@ -15,7 +15,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center mb-4">All Users List</h1>
-        <a href="new" class="btn btn-success btn-sm mb-2">+ Add</a><br>
+        <a href="{{route('addUser')}}" class="btn btn-success btn-sm mb-2">+ Add</a><br>
         <table class="table table-striped table-bordered">
             <thead class="table-dark">
                 <tr>
