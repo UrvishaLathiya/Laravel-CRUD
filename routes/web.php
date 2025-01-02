@@ -8,8 +8,8 @@ Route::controller(UserController::class,)->group(function(){
     Route::get("/",  'showUsers')->name('home');
     Route::get("/user/{id}",  'singleUser')->name('view.user');
 
-    // Route::post("/add",  'addUser')->name('addUser');
-    Route::get("/add",  'addNew')->name('addUser');
+    Route::post("/add",  'addUser')->name('addUser');
+    Route::get("/add",  'addNew')->name('userAdd');
 
     Route::post("/edit/{id}",  'updateUser')->name('update.user');
     Route::get("/edit/{id}",  'updatePage')->name('update.page');
