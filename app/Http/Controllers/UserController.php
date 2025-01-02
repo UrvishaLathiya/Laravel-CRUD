@@ -63,9 +63,6 @@ class UserController extends Controller
         return view("SingleUserData", ["data"=>$user]);
     }
 
-    public function addNew(){
-        return view("AddNewUser");
-    }
 
     public function addUser(Request $request){
         
