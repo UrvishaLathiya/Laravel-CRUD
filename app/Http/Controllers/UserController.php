@@ -64,7 +64,7 @@ class UserController extends Controller
     }
 
     public function addNew(){
-        return view("AllUsers");
+        return view("AddNewUser");
     }
 
     public function addUser(Request $request){
