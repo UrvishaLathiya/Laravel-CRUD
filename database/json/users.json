@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Ram",
+        "email" : "ram@gmail.com",
+        "age" : 18,
+        "city" : 1 
+    },
+    {
+        "name" : "Sita",
+        "email" : "sita@gmail.com",
+        "age" : 19,
+        "city" : 2 
+    },
+    {
+        "name" : "Laxaman",
+        "email" : "laxaman@gmail.com",
+        "age" : 15,
+        "city" : 3
+    },
+    {
+        "name" : "Bharat",
+        "email" : "bharat@gmail.com",
+        "age" : 16,
+        "city" : 1
+    },
+    {
+        "name" : "Shatrugna",
+        "email" : "sha@gmail.com",
+        "age" : 20,
+        "city" : 2 
+    }
+    
+]
